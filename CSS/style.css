@@ -1,0 +1,254 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    overflow-x: hidden;
+}
+.color{
+    color: rgb(53, 215, 131);
+}
+
+
+/* header part is start here  */
+header{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -100px;
+    z-index: 5;
+}
+#left{
+    margin-left: 130px;
+}
+nav{
+    float: right;
+}
+nav ul{
+    margin-right: 100px;
+}
+header nav ul li{
+    display: inline-block;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+}
+header nav ul li a:hover{
+    color: rgb(200, 65, 65);
+}
+
+
+/* Main part is start here  */
+
+main{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.align{
+    display: flex;
+    justify-content: space-between;
+}
+main #div1 section{
+    font-size: larger;
+}
+main #div1 section button{
+    background-color: rgb(53, 215, 131);
+    border: none;
+    color: white;
+    font-size: small;
+    margin-top: 10px;
+    border-radius: 15px;
+    height: 30px;
+    width: 80px;
+}
+#div1{
+    align-items: center;
+}
+main #div1 article img{
+    height: 400px;
+    margin-right: 200px;
+}
+main p{
+    font-size: small;
+}
+main #div2 article img{
+    height: 320px;
+    width: auto;
+}
+#div2{
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+#div2 h2{
+    margin-bottom: 10px;
+}
+main #div2 section{
+    margin-right: 300px;
+}
+#gap p{
+    margin-top: 10px;
+}
+#div3 h1{
+    margin-right: 260px;
+}
+
+/* My services */
+#upperBox{
+    display: flex;
+}
+.ubox{
+    border: 5px;
+    border-style: groove;
+    border-color: #38383b;
+    z-index: 1;
+    height: 300px;
+    width: 350px;
+    margin: 50px 10px 50px 10px;
+    align-items: center;
+}
+.ubox img{
+    height: 50px;
+}
+.ubox p{
+    margin: 40px 30px 50px 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+#LowerBox{
+    display: flex;
+    margin-bottom: 200px;
+}
+.lbox{
+    border: 5px;
+    border-style: groove;
+    border-color: #38383b;
+    z-index: 1;
+    height: 300px;
+    width: 350px;
+    margin: 50px 10px 50px 10px;
+    align-items: center;
+}
+.lbox img{
+    height: 50px;
+}
+.lbox p{
+    margin: 40px 30px 50px 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+#gallery{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 5px;
+    margin-bottom: 200px;
+}
+#gallery img{
+    height: 300px;
+    width: 400px;
+}
+/* #gallery img:hover{
+    border: 2px aqua solid;
+} */
+#div4 h1{
+    margin-right: 150px;
+    z-index: 1000;
+}
+#div5{
+    margin-bottom: 100px;
+}
+.div5{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 300px;
+}
+.div5 section{
+    font-size: large;
+}
+#div5 form{
+    background-color: #8787873a;
+    padding: 10px 100px 30px;
+    height: auto;
+    border-radius: 15px;
+    border: none;
+}
+.lab{
+    font-size: larger;
+}
+.inp{
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+}
+textarea{
+    height: 100px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+}
+#sub{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+#sub:hover{
+    box-shadow: 0 1px 5px #9de6ed;
+}
+
+
+/* Fotter part is start here  */
+
+footer{
+    color: white;
+    padding: 50px 300px 100px 230px;
+    height: 130px; 
+    width: 100%;
+    display: flex;
+    /* background-color: rgb(62, 65, 65);  */
+    background-color: #2E2E2E;
+}
+#boxx{
+    height: 45px;
+    width: 100%;
+    text-align: center;
+    background-color: #1C1C1C;
+}
+#boxx p{
+    padding-top: 13px;
+    color: rgb(77, 77, 77);
+}
+.p{
+    padding-top: 10px;
+}
+#dv2{
+    margin-left: 100px;
+}
+#Ql{
+    text-align: center;
+    margin-top: 35px;
+}
+.aa{
+    text-decoration: none;
+    color: white;
+}
+#dv3{
+    margin-left: 200px;
+}
+#ul li a{
+    text-decoration: none;
+    color: white;
+}
+#ul{
+    margin-top: 35px;
+}
+li{
+    margin-top: 10px;
+}
